@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     int ii = 99;
     private void test1(String message){
         Log.i(LOG_MESSAGE, message);
-        if(i > ii){
-            i *= ii+i;
+        if(i <= ii){
+            i *= ii*i;
         }
     }
 
