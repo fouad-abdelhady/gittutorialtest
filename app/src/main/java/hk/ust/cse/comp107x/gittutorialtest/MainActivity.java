@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         if(i <= ii){
             i *= ii*i;
         }
+        else
+            i += ii+i;
     }
 
 }
