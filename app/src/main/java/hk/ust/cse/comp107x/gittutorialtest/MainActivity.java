@@ -12,12 +12,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         test1("hello there");
     }
-    int i = 2;
-    int ii = 23;
+    int i = 9;
+    int ii = 99;
     private void test1(String message){
         Log.i(LOG_MESSAGE, message);
-        if(i < ii){
-            i *= ii-i;
+        if(i > ii){
+            i *= ii+i;
         }
     }
 
