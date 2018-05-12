@@ -10,11 +10,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        test1();
+        test1("hello there");
     }
 
-    private void test1(){
-        Log.i(LOG_MESSAGE, "Pushing my proj to github");
+    private void test1(String message){
+        Log.i(LOG_MESSAGE, message);
     }
 
 }
